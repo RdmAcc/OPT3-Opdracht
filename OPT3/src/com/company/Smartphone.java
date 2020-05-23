@@ -16,3 +16,4 @@ class Smartphone extends Telephone {
         System.out.println("Smartphone is calling...");
     }
 }
+

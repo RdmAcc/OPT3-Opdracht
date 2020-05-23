@@ -18,3 +18,4 @@ abstract class Telephone {
     }
     public abstract void call();
 }
+
