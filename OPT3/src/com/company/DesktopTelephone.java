@@ -17,3 +17,4 @@ class DesktopTelephone extends Telephone {
         System.out.println("Desktop telephone is calling...");
     }
 }
+
