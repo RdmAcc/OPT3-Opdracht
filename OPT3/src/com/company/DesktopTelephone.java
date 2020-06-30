@@ -12,9 +12,17 @@ class DesktopTelephone extends Telephone {
     public int getCableLenght() {
         return cableLenght;
     }
+
     @Override
-    public void call(){
-        System.out.println("Desktop telephone is calling...");
+    void Dialing(){
+        System.out.println("Desktop telephone is dialing a number");
+    }
+    @Override
+    void Connecting(){
+        System.out.println("Desktop telephone is connecting... \nConnected");
+    }
+    @Override
+    void Ending(){
+        System.out.println("Desktop telephone call has ended");
     }
 }
-

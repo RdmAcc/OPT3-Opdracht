@@ -17,7 +17,15 @@ class Smartphone extends Telephone {
         return software;
     }
     @Override
-    public void call(){
-        System.out.println("Smartphone is calling...");
+    void Dialing(){
+        System.out.println("Smartphone is dialing a number");
+    }
+    @Override
+    void Connecting(){
+        System.out.println("Smartphone is connecting... \nConnected");
+    }
+    @Override
+    void Ending(){
+        System.out.println("Smartphone call has ended");
     }
 }
