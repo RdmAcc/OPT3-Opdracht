@@ -8,8 +8,8 @@ public class Main {
         Telephone smartphone = telephoneFactory.getTelephone("smartphone");
         Telephone desktopTelephone = telephoneFactory.getTelephone("desktoptelephone");
 
-        smartphone.call();
-        desktopTelephone.call();
+        smartphone.Call();
+        desktopTelephone.Call();
     }
 }
 //Code smells die in mijn code ontbreekt en hoe ik ze heb opgelost:

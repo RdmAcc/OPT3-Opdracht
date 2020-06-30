@@ -12,10 +12,18 @@ abstract class Telephone {
     public String getBrand() {
         return brand;
     }
-
     public String getModel() {
         return model;
     }
-    public abstract void call();
+
+    abstract void Dialing();
+    abstract void Connecting();
+    abstract void Ending();
+
+    public final void Call(){
+        Dialing();
+        Connecting();
+        Ending();
+    }
 }
 
